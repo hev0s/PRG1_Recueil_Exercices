@@ -69,7 +69,7 @@ cout << "egalité : " << boolalpha << egalite;
 <summary>Solution</summary>
 
 ~~~cpp
-bool egalite = abs(1 / 3. - 0.3333333333333333) < 1e-9;
+bool egalite = fabs(1 / 3. - 0.3333333333333333) < 1e-9;
 cout << "egalité : " << boolalpha << egalite;
 ~~~
 
