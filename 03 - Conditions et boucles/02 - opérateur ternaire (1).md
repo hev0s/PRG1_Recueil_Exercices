@@ -6,7 +6,7 @@ Réécrivez les extraits de code suivants en une seule ligne en utilisant un ou 
 if (a > 0) {
    b += a;
 } else {
-   b -= 2*a; 
+   b -= 2*a; // dans les deux cas on affacte le b
 }
 ~~~
 
